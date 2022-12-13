@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Business Card</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="user">
+        <input type="text" name="job">
+        <input type="email" name="email">
+        <input type="tel" name="number">
+        <select name="logo">
+            <option value="skyatlas">Skyatlas</option>
+            <option value="phoenix-framework">phoenix-framework</option>
+            <option value="hooli">hooli</option>
+            <option value="fedex">fedex</option>
+            <option value="bots">bots</option>
+            <option value="angrycreative">angrycreative</option>
+            <option value="linux">linux</option>
+        </select>
+    </form>
+    <ag-cc type="DiscoverCard"
+            number="0000111133334444" 
+            user="A Ivanov" 
+            expire="03/26"
+            logo="dribble">
+    </ag-cc>
+    <script src="script.js" type="module"></script>
+    <ag-pr number="8(999)092-20-30"
+        user="Pavel"
+        job="Продавец Дикси"
+        email="mafiozi@gmail.com"
+        logo="hooli"></ag-pr>
+    <script src="script2.js" type="module"></script>
+</body>
+</html>

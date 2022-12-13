@@ -1,0 +1,23 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    gap: 30px;
+}
+
+ag-cc {
+    box-shadow: 0 0 5px #0006;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    /* align-items: center; */
+}
